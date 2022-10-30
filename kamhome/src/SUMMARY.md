@@ -2,10 +2,10 @@
 
 [Intro](./intro.md)
 
-- [Network]()
+- [Network](./network/index.md)
   - [Topology]()
   - [VLAN]()
-  - [Firewall]()
+  - [Firewall](./network/firewall.md)
 
 - [Server]()
   - [Initial setup]()
@@ -16,3 +16,6 @@
     - [DNS]()
   - [Network policies]()
 - [External services]()
+
+---
+[About me](./about-me.md)
