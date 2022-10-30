@@ -1,0 +1,6 @@
+[book]
+authors = ["Kamil Czerwiński <kamil@czerwinski.dev>"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Running k8s cluster at home"
