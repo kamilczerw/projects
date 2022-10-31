@@ -1,4 +1,4 @@
-# Intro
+# <i class="fa-solid fa-house"></i> Intro
 
 Hello reader.
 

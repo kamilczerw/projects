@@ -1,7 +1,6 @@
 # Summary
 
 [Intro](./intro.md)
-
 - [Network](./network/index.md)
   - [Topology]()
   - [VLAN]()
@@ -11,7 +10,7 @@
   - [Initial setup]()
     - [MicroK8S]()
   - [Configuration]()
-    - [ZFS]()
+    - [ZFS](./configuration/zfs.md)
     - [OpenEBS]()
     - [DNS]()
   - [Network policies]()

@@ -1,4 +1,4 @@
-# Firewall
+# <i class="fa-solid fa-block-brick-fire"></i> Firewall
 
 > **Warning**
 >
