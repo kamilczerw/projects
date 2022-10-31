@@ -1,4 +1,4 @@
-# ZFS
+# <i class="fa-regular fa-hard-drive"></i> ZFS
 
 
 > ⚠️  **TODO**

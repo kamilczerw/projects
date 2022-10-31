@@ -1,4 +1,4 @@
-# About me
+# <i class="fa-solid fa-user-astronaut"></i> About me
 
 My name is Kamil, bla bla bla, Software, bla. 🦀 Rust <i class="fa-brands fa-rust"></i> bla bla.
 
