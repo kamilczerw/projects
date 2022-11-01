@@ -167,6 +167,12 @@ In each chapter, I will try to include all the details about any hardware or sof
 </ul>
 <p>I will touch on each of the points in further chapters, and try to make a point of why I want it that way. I will also explain how you can buid it id another way.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="network"><a class="header" href="#network"><i class="fa-solid fa-network-wired"></i> Network</a></h1>
+<blockquote>
+<p>⚠️  <strong>TODO</strong></p>
+<ul>
+<li>Explain why <code>VLAN</code>, <em>should it be before router section?</em></li>
+</ul>
+</blockquote>
 <p>Let's start with the network, because it's the foundation for ther rest of what we are going to do.</p>
 <blockquote>
 <p>ℹ️ <strong>Note</strong></p>
@@ -181,10 +187,6 @@ In each chapter, I will try to include all the details about any hardware or sof
 <p>I personally use <a href="https://opnsense.org/"><strong>OPNsense</strong></a>, so all the configuration will require you running <code>OPNsense</code> or you will need to figure out how to configura your router OS<sup class="footnote-reference"><a href="#routerOS">1</a></sup>.</p>
 <p>If you can't configure <code>VLAN</code> on your router, you should check if it can be flashed and is capable of running <code>OPNsense</code>, or <a href="https://openwrt.org/">OpenWrt</a> which is less demanding when it comes to the hardware.</p>
 <p>You can also buy a new router. There are plenty of articles about routers capable of running <code>OPNsense</code>. If you ask me, I would recommend one of these: <a href="https://teklager.se/en/products/routers/">https://teklager.se/en/products/routers/</a><sup class="footnote-reference"><a href="#teklager">2</a></sup>.</p>
-<h3 id="todo"><a class="header" href="#todo">TODO</a></h3>
-<p>Explain what is the difference between <code>LAN</code> vs <code>VLAN</code> vs <code>XVLAN</code></p>
-<p><i class="fa-solid fa-user"></i>
-<i class="fa-brands fa-rust"></i></p>
 <div class="footnote-definition" id="routerOS"><sup class="footnote-definition-label">1</sup>
 <p>If you do that, and you want to share how, please let me know so we can update the book.</p>
 </div>
