@@ -13,7 +13,7 @@ Let's start with the network, because it's the foundation for ther rest of what 
 
 ## Router
 
-I personally use [**OPNsense**](https://opnsense.org/), so all the configuration will be provided for `OPNsense`. If you don't run `OPNsense`, you will need to figure out how to configura your router yourself[^routerOS].
+I personally use [**OPNsense**](https://opnsense.org/), so all the configuration will be provided for `OPNsense`. If you use something else, you will need to figure out how to configura your router yourself[^routerOS].
 
 If you can't configure `VLAN` on your router, you should check if it can be flashed and is capable of running `OPNsense`, or [OpenWrt](https://openwrt.org/) which is less demanding when it comes to the hardware.
 
@@ -21,7 +21,7 @@ You can also buy a new router. There are plenty of articles about routers capabl
 
 ## VLAN
 
-You may be wondering what the hell is `VLAN` and why do I need it. Don't worry about it, everything will be clarified in the [VLAN chapter](vlan.md). But first we should take a look at how the network should look like.
+You may be wondering what the hell is `VLAN` and why do I need it. Don't worry about it now, everything will be clarified in the [VLAN chapter](vlan.md). But first we should take a look at how the network should look like.
 
 
 
