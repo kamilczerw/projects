@@ -1,12 +1,14 @@
 # Summary
 
 [Intro](./intro.md)
+
+---
 - [Network](./network/index.md)
   - [Topology]()
   - [VLAN]()
   - [Firewall](./network/firewall.md)
 
-- [Server]()
+- [Server](./server/index.md)
   - [Initial setup]()
     - [MicroK8S]()
   - [Configuration]()
