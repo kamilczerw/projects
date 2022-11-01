@@ -5,7 +5,7 @@
 ---
 - [Network](./network/index.md)
   - [Topology]()
-  - [VLAN]()
+  - [VLAN](./network/vlan.md)
   - [Firewall](./network/firewall.md)
 
 - [Server](./server/index.md)
