@@ -14,11 +14,14 @@
 
 All the devides have IP assigned in the same space.
 
-> ![Flat network](./images/flat.png)
+> <img src="./images/dark/flat.png" alt="flat" class="dark"/>
+> <img src="./images/light/flat.png" alt="flat" class="light"/>
 
 
 ## Network with VLAN
 
 Devices are getting IP addresses either in `LAN` space or in `VLAN.1` space.
 
-> ![VLAN](./images/vlan.png)
+<img src="./images/dark/vlan.png" alt="vlan" class="dark quote-bg"/>
+<img src="./images/light/vlan.png" alt="vlan" class="light quote-bg"/>
+
