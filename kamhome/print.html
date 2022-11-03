@@ -9,6 +9,7 @@
 <link href="font-awesome/css/fontawesome.css" rel="stylesheet">
 <link href="font-awesome/css/brands.css" rel="stylesheet">
 <link href="font-awesome/css/solid.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -79,7 +80,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="intro.html">Intro</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="network/index.html"><strong aria-hidden="true">1.</strong> Network</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Topology</div></li><li class="chapter-item expanded "><a href="network/vlan.html"><strong aria-hidden="true">1.2.</strong> VLAN</a></li><li class="chapter-item expanded "><a href="network/firewall.html"><strong aria-hidden="true">1.3.</strong> Firewall</a></li></ol></li><li class="chapter-item expanded "><a href="server/index.html"><strong aria-hidden="true">2.</strong> Server</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">2.1.</strong> Initial setup</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">2.1.1.</strong> MicroK8S</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.2.</strong> Configuration</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="configuration/zfs.html"><strong aria-hidden="true">2.2.1.</strong> ZFS</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.2.2.</strong> OpenEBS</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.2.3.</strong> DNS</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.3.</strong> Network policies</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> External services</div></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="about-me.html">About me</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="intro.html">Intro</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="network/index.html"><strong aria-hidden="true">1.</strong> Network</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="network/topology.html"><strong aria-hidden="true">1.1.</strong> Topology</a></li><li class="chapter-item expanded "><a href="network/vlan.html"><strong aria-hidden="true">1.2.</strong> VLAN</a></li><li class="chapter-item expanded "><a href="network/firewall.html"><strong aria-hidden="true">1.3.</strong> Firewall</a></li></ol></li><li class="chapter-item expanded "><a href="server/index.html"><strong aria-hidden="true">2.</strong> Server</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">2.1.</strong> Initial setup</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">2.1.1.</strong> MicroK8S</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.2.</strong> Configuration</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="configuration/zfs.html"><strong aria-hidden="true">2.2.1.</strong> ZFS</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.2.2.</strong> OpenEBS</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.2.3.</strong> DNS</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.3.</strong> Network policies</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> External services</div></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="about-me.html">About me</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -165,7 +166,7 @@ In each chapter, I will try to include all the details about any hardware or sof
 <li>Have an internal DNS server for local applications.</li>
 <li>Expose some applications on my routers public IP.</li>
 </ul>
-<p>I will touch on each of the points in further chapters, and try to make a point of why I want it that way. I will also explain how you can buid it id another way.</p>
+<p>I will touch on each of the points in further chapters, and try to make a point of why I want it that way. I will also explain how you can buid it in another way.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="network"><a class="header" href="#network"><i class="fa-solid fa-network-wired"></i> Network</a></h1>
 <p>Let's start with the network, because it's the foundation for ther rest of what we are going to do.</p>
 <blockquote>
@@ -189,6 +190,26 @@ In each chapter, I will try to include all the details about any hardware or sof
 <div class="footnote-definition" id="teklager"><sup class="footnote-definition-label">2</sup>
 <p>These guys are really passionate about routers, and they build very well made hardware.</p>
 </div>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="topology"><a class="header" href="#topology">Topology</a></h1>
+<div class="table-wrapper"><table><thead><tr><th>Image</th><th>Descriptoin</th></tr></thead><tbody>
+<tr><td><img src="network/./images/firewall.png" alt="firewall" /></td><td>Firewall</td></tr>
+<tr><td><img src="network/./images/router.png" alt="router" /></td><td>Router</td></tr>
+<tr><td><img src="network/./images/switch.png" alt="switch" /></td><td>Switch</td></tr>
+<tr><td><img src="network/./images/client.png" alt="client" /></td><td>Client</td></tr>
+<tr><td><img src="network/./images/server.png" alt="server" /></td><td>Server</td></tr>
+<tr><td><img src="network/./images/rpi.png" alt="rpi" /></td><td>Raspberry pi</td></tr>
+</tbody></table>
+</div>
+<h2 id="flat-network"><a class="header" href="#flat-network">Flat network</a></h2>
+<p>All the devides have IP assigned in the same space.</p>
+<blockquote>
+<p><img src="network/./images/flat.png" alt="Flat network" /></p>
+</blockquote>
+<h2 id="network-with-vlan"><a class="header" href="#network-with-vlan">Network with VLAN</a></h2>
+<p>Devices are getting IP addresses either in <code>LAN</code> space or in <code>VLAN.1</code> space.</p>
+<blockquote>
+<p><img src="network/./images/vlan.png" alt="VLAN" /></p>
+</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="vlan-1"><a class="header" href="#vlan-1">VLAN</a></h1>
 <blockquote>
 <p>⚠️  <strong>TODO</strong></p>
