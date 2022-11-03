@@ -4,3 +4,23 @@ img[alt=router] { width: 40px; }
 img[alt=switch] { width: 40px; }
 img[alt=client] { width: 40px; }
 img[alt=firewall] { width: 40px; }
+
+html.light img.dark {
+    display: none;
+}
+
+html.ayu img.light {
+    display: none;
+}
+
+html.navy img.light {
+    display: none;
+}
+
+html.coal img.light {
+    display: none;
+}
+
+img.quote-bg {
+    background: var(--quote-bg);
+}
