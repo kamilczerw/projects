@@ -32,4 +32,4 @@ There are few things I want to achieve.
 - Have an internal DNS server for local applications.
 - Expose some applications on my routers public IP.
 
-I will touch on each of the points in further chapters, and try to make a point of why I want it that way. I will also explain how you can buid it id another way.
+I will touch on each of the points in further chapters, and try to make a point of why I want it that way. I will also explain how you can buid it in another way.
