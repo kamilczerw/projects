@@ -6,6 +6,4 @@ src = "src"
 title = "Running k8s cluster at home"
 
 [output.html]
-default-theme = "ayu"
 preferred-dark-theme = "ayu"
-
