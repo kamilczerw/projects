@@ -21,7 +21,7 @@ You can also buy a new router. There are plenty of articles about routers capabl
 
 ## VLAN
 
-You may be wondering what the hell is `VLAN` and why do I need it. Don't worry about it now, everything will be clarified in the [VLAN chapter](vlan.md). But first let's have a look at how the network topology.
+You may be wondering what the hell is `VLAN` and why do I need it. Don't worry about it now, everything will be clarified in the [VLAN chapter](vlan.md). But let's have a look the network topology first.
 
 
 
