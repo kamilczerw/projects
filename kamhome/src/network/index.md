@@ -15,7 +15,7 @@ Let's start with the network, because it's the foundation for our kubernetes set
 
 I personally use [**OPNsense**](https://opnsense.org/), so all the configuration will be provided for `OPNsense`. If you use something else, you will need to figure out how to configura your router yourself[^routerOS].
 
-If you can't configure `VLAN` on your router, you should check if it can be flashed and is capable of running `OPNsense`, or [OpenWrt](https://openwrt.org/) which is less demanding when it comes to the hardware.
+If you can't configure `VLAN` on your router, you should check if it can be flashed and is capable of running `OPNsense`, or [OpenWrt](https://openwrt.org/) which can run on more types of hardware.
 
 You can also buy a new router. There are plenty of articles about routers capable of running `OPNsense`. If you ask me, I would recommend one of these: <https://teklager.se/en/products/routers/>[^teklager].
 
